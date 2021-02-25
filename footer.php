@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 
 <footer class="pt-4 my-md-5 pt-md-5 border-top" style="background-color:#f7f2f2">
-	<div class="container">
+	<div class="container-fluid">
         <div class="row">
 			<div class="col-6 col-md">
 				<h5 style="">Contact</h5>

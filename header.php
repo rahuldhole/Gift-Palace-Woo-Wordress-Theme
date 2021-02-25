@@ -21,6 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+
 	<?php wp_head(); ?>
 </head>
 
@@ -33,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		
 		
 		<div id= "top-header" class="top-header-holder">
-			<div class="container">
+			<div class="container-fluid">
 
 			<div class="row no-gutters">
 				
@@ -76,7 +77,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
 			</h2>
 
-		<div class="container">
+		<div class="container-fluid">
 		
 
 					
